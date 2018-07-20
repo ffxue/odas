@@ -42,6 +42,7 @@ The key scientific question is "How can the symmetry be efficiently recognized w
 * Install the dependencies listed above
 
     cmake .
+    
     make -j2
 
 # How to contribute
