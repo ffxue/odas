@@ -12,7 +12,7 @@ Symmetry in 3D space is fully determined by three real parameters, e.g., the pla
 
 For more details, please refer to the papers.
 
-# How to use CMA-VNS
+# How to use ODAS
 
 If you have a large-scale 3D point cloud, please convert the format to .pcd.
 
