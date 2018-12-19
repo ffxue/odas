@@ -4,7 +4,7 @@ The Optimization-based Detection of Architectural Systems (ODAS) is a free, fast
 
 # How to cite
 
-  Xue, F., Lu, W., Webster, C., and Chen, K. (2018). An optimization-based approach for detecting architectural symmetries from 3D point clouds. Submitted to ISPRS Journal of Photogrammetry and Remote Sensing, under review.
+  Xue, F., Lu, W., Webster, C., and Chen, K. (2018). An optimization-based approach for detecting architectural symmetries from 3D point clouds. Submitted to ISPRS Journal of Photogrammetry and Remote Sensing, 128, 32-40. doi: [](//doi.org/10.1016/j.isprsjprs.2018.12.005)
 
 # How does it work
 
