@@ -3,7 +3,7 @@
 
 
 #include <pcl/io/pcd_io.h>
-//#include <pcl/io/ply_io.h>
+#include <pcl/io/ply_io.h>
 #include <pcl/common/common.h>
 #include <pcl/point_types.h>
 #include <pcl/kdtree/kdtree_flann.h>
@@ -245,8 +245,24 @@ public:
     {
         // load file
         filename = fname;
-        pcl::PCDReader reader;
-        reader.read (filename.c_str(), *cloud);
+        std::string fileext = fname.substr(fname.size() - 3);
+        if (fileext == "pcd")
+        {
+            pcl::PCDReader reader;
+            reader.read (filename.c_str(), *cloud);
+        }
+        else if (fileext == "ply")
+        {
+            pcl::PLYReader reader;
+            reader.read (filename.c_str(), *cloud);
+        }
+        else
+        {
+            std::cerr << "[Error] Unknown extension \"." << fileext 
+                    << "\". (.pcd or .ply expected)" << std::endl;
+            exit(0);
+        }
+
 
         epsilon = epsilon_diag;
         prepare_boundary();
