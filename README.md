@@ -1,6 +1,6 @@
 # About ODAS
 
-The Optimization-based Detection of Architectural Systems (ODAS) is a free, fast, accurate, and robust library for the problem of architectural symmetry detection from 3D point clouds.
+The Optimization-based Detection of Architectural Symmetries (ODAS) is a free, fast, accurate, and robust library for the problem of architectural symmetry detection from 3D point clouds.
 
 # How to cite
 
